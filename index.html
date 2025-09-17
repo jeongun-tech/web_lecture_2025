@@ -9,8 +9,23 @@
     <h1>
         Hello Day1 Page
     </h1>
+
+    <input id="input-name"/>
+    <button id ="btn-test">테스트</button>
+
+
     <script>
      console.log("hello")
+     console.log(202158031)
+     console.log(LeeJeongun)
+
+      var btntest = document.getElementsByid("btn-test")
+      var inputName = document.getElementById("input-name")
+
+      btntest.addEventListener('click',()=>{
+        console.log("안녕하세요"+inputName.value+"님")
+      })
+
     </script>
 
 
